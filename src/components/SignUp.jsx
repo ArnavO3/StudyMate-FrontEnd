@@ -55,7 +55,7 @@ function SignUp() {
 
     const postreq = async () => {
         try {
-            const res = await axios.post("http://localhost:3000/signup", {
+            const res = await axios.post("https://studymate-backend-3ixy.onrender.com/signup", {
                 username: username,
                 email: email,
                 pswd: pswd,

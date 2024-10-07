@@ -28,7 +28,7 @@ function LogIn() {
     };
 
     const postreq = async () => {
-        fetch("http://localhost:3000/login", {
+        fetch("https://studymate-backend-3ixy.onrender.com/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
